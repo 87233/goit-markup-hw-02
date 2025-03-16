@@ -3,17 +3,23 @@
     color: #434455;
     background: #fff;
 }
+
 ul {
     list-style-type: none;
 }
+
 a {
     text-decoration: none;
 }
+
 /* ------------heder---------------- */
+
 .header {
 }
+
 .header-navigation {
 }
+
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -23,11 +29,14 @@ a {
     text-transform: uppercase;
     color: #4d5ae5;
 }
+
 .logo-spain {
     color: #2e2f42;
 }
+
 .header-navigation-list {
 }
+
 .header-navigation-list-item {
     font-weight: 500;
 
@@ -35,34 +44,45 @@ a {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
+
 .header-navigation-list-item:hover,
 .header-navigation-list-item:active,
 .header-navigation-list-item:focus {
     color: #404bbf;
 }
+
 .header-address {
     font-style: normal;
 }
+
 .header-address-list {
 }
+
 .header-address-list-item {
     line-height: 1.5;
     letter-spacing: 0.02em; 
     color: #434455; 
 }
+
 .header-address-list-item:hover,
 .header-address-list-item:focus {
     color: #404bbf
 }
 
+
 /* ------------heder---------------- */
+
 /* -------------main--------------- */
+
 /*------------section-one---------- */
+
 .main {
 }
+
 .section-one {
     background: #2e2f42;
 }
+
 .section-one .title {
     font-size: 56px;
     line-height: 1.07;
@@ -70,6 +90,7 @@ a {
     text-align: center;
     color: #fff;
 }
+
 .section-one-btn {
     font-weight: 500;
     line-height: 1.5;
@@ -78,20 +99,28 @@ a {
     background-color: #4D5AE5;
     cursor: pointer;
 }
+
 .section-one-btn:hover,
 .section-one-btn:focus {
     background: #404bbf;
 }
+
 /*------------section-one---------- */
+
 /* -------------section-advantages -------- */
+
 .section-advantages {
 }
+
 .section-advantages .subject {
 }
+
 .advantages-list {
 }
+
 .advantages-item {
 }
+
 .advantages-item .heading {
     font-weight: 500;
     font-size: 20px;
@@ -99,15 +128,20 @@ a {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
+
 .advantages-item .text {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
 /* -------------section-advantages -------- */
+
 /* ----------section-team------------- */
+
 .section-team {
     background: #f4f4fd;
 }
+
 .subject {
     font-size: 36px;
     line-height: 1.11;
@@ -116,13 +150,17 @@ a {
     color: #2e2f42;
     text-transform: capitalize;
 }
+
 .team-list {
 }
+
 .team-item {
     background: #fff;
 }
+
 .img {
 }
+
 .heading {
     font-weight: 500;
     font-size: 20px;
@@ -131,33 +169,47 @@ a {
     text-align: center;
     color: #2e2f42;
 }
+
 .text {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
 }
+
 /* ----------section-team------------- */
+
 /* ----------section-portfolio------------- */
+
 .section-portfolio {
 }
+
 .subject {
 }
+
 .portfolio-list {
 }
 .portfolio-item {
 }
+
 .img {
 }
+
 .heading {
 }
+
 .text {
 }
+
 /* ----------section-portfolio------------- */
+
 /* -------------main--------------- */
+
 /* -------------footer--------------- */
+
 .footer {
     background-color: #2e2f42;
 }
+
 .logo-footer {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -167,6 +219,7 @@ a {
     text-transform: uppercase;
     color: #f4f4fd;
 }
+
 .footer-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
