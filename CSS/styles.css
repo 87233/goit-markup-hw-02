@@ -18,13 +18,13 @@ a {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4d5ae5;
 }
 .logo-spain {
-    color: #4d5ae5;
+    color: #2e2f42;
 }
 .header-navigation-list {
 }
@@ -36,18 +36,22 @@ a {
     color: #2e2f42;
 }
 .header-navigation-list-item:hover,
-.header-navigation-list-item:active {
+.header-navigation-list-item:active,
+.header-navigation-list-item:focus {
     color: #404bbf;
 }
 .header-address {
+    font-style: normal;
 }
 .header-address-list {
 }
 .header-address-list-item {
     line-height: 1.5;
-    letter-spacing: 0.02em;  
+    letter-spacing: 0.02em; 
+    color: #434455; 
 }
-.header-address-list-item:hover {
+.header-address-list-item:hover,
+.header-address-list-item:focus {
     color: #404bbf
 }
 
@@ -61,14 +65,21 @@ a {
 }
 .section-one .title {
     font-size: 56px;
-    line-height: 1.07
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
 }
-.section-one-btl {
+.section-one-btn {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    background-color: #4D5AE5;
+    cursor: pointer;
 }
-.section-one-btl:hover {
+.section-one-btn:hover,
+.section-one-btn:focus {
     background: #404bbf;
 }
 /*------------section-one---------- */
@@ -103,6 +114,7 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 .team-list {
 }
@@ -143,6 +155,9 @@ a {
 /* ----------section-portfolio------------- */
 /* -------------main--------------- */
 /* -------------footer--------------- */
+.footer {
+    background-color: #2e2f42;
+}
 .logo-footer {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
